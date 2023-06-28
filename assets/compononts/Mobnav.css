@@ -1,0 +1,43 @@
+.opHumb{
+    margin-top: 25px;
+    margin-right: 23px;
+    cursor: pointer;
+
+}
+.closehumb{
+    position: absolute;
+    z-index: 30;
+    right: 5px;
+    top: 25px;
+    cursor: pointer;
+}
+.mob{
+
+}
+.menu{
+    background-color: #ffffff;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 20;
+    max-width: 230px;
+}
+.moblink{
+    height: 100vh;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   row-gap: 30px;
+   list-style: none;
+   text-decoration: none;
+}
+.loo{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 23px;
+}
+

@@ -1,0 +1,166 @@
+.service{
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.projts{
+    margin-right: 190px;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.serviceFir{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.serviceFir h2{
+    color: #2525d0;
+    font-size: 55px;
+    letter-spacing: 6px;
+}
+.serviceFir h3{
+    padding-top: 25px;
+    font-weight: 600;
+    font-size: 21px;
+}
+.service h4{
+    padding-top: 75px;
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+}
+.service h4 span{
+    color: #2525d0;
+
+}
+.serviceSec{
+    padding-top: 75px;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-gap:30px;
+   flex-wrap: wrap;
+}
+.column{
+    height: 200px;
+    text-align: center;
+    padding: 0 1em 1em 1em ;  
+}
+
+.card{
+    width: 100%;
+    height: 200px;
+    padding: 2.9em 0.5em;
+    background: linear-gradient(#fff 50% , rgb(255, 0, 0)  50% );
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px ;
+    box-shadow: 0 0 35px rgba(0,0,0,0.12);
+    cursor: pointer;
+    transition: 1.5s;
+}
+.card:hover{
+    background-position: 0 100%;
+}
+.card h3{
+    padding-top: 15px;
+    font-size: 20px;
+    color: black;
+}
+.card:hover h3{
+    color: rgb(255, 0, 0);
+}
+.icons{
+    color: rgb(255, 0, 0);
+}
+.card:hover .icons{
+    color: black}
+.serviceThird{
+    padding-top: 75px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(190px,1fr));
+    grid-gap:40px;
+   flex-wrap: wrap;
+}
+.card-{
+    background: linear-gradient(#fff 50% , #2525d0  50% );
+    width: 100%;
+    height: 200px;
+    padding: 2.9em 0.5em;
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px ;
+    box-shadow: 0 0 35px rgba(0,0,0,0.12);
+
+    cursor: pointer;
+    transition: 1.5s;
+}
+.card-:hover{
+    background-position: 0 100%;
+}
+.icons-{
+    color: #2525d0 ;
+}
+.card-:hover .icons-{
+    color: black ;
+}
+.card-:hover h3{
+    color: #2525d0  ;
+}
+#last{
+    margin-left: 370px;
+}
+.frame{
+    margin-top: 50px;
+    position: relative;
+    width: 400px;
+
+}
+.frame img{
+    width:600px;
+    display:block;
+    height: 520px;
+    background-position: center;
+    background-size: cover;
+
+}
+.overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+   font-size: 58px;
+   margin-top: 150px;
+margin-left: 90px;
+width: 140px;
+    color: #fff;
+}
+@media only screen and (max-width:750px) {
+.serviceSec{
+    margin-top: -40px;
+}
+    .serviceFir h2{
+    font-size: 35px;
+    margin-top: 50px;
+ }   
+ .serviceFir h3{
+    font-size: 24px;
+ }
+ .service h4{
+    font-size: 22px;
+    margin-top: -30px;
+ }
+ #minicard{
+    font-size: 18px;
+ }
+.frame{
+    margin-top: -190px;
+}
+
+
+}
